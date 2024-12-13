@@ -6,11 +6,11 @@ router.get("/signup", (req, res) => {
   res.send("signup route");
 });
 
-router.get("/signup", (req, res) => {
+router.get("/login", (req, res) => {
   res.send("login route");
 });
 
-router.get("/signup", (req, res) => {
+router.get("/logout", (req, res) => {
   res.send("logout route");
 });
 
