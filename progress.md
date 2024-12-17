@@ -1,0 +1,5 @@
+# Record
+
+```
+npm init -y
+```
