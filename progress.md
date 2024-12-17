@@ -5,6 +5,7 @@ installation
 npm init -y
 npm i express
 npm i -g nodemon
+npm i dotenv
 ```
 
 ```
@@ -17,3 +18,6 @@ in script:
 can then do:
 npm run dev
 ```
+
+dotenv file, for constants and env variables
+dotenv module loads the dotenv variables into dotenv.process
