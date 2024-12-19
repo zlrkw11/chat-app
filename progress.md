@@ -21,3 +21,4 @@ npm run dev
 
 dotenv file, for constants and env variables
 dotenv module loads the dotenv variables into dotenv.process
+NO SPACES between: PORT=4000
