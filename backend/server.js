@@ -11,6 +11,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+const user1 = new User({
+  name: "joe",
+  age: 20,
+});
+
 app.get("/", (req, res) => {
   res.json({ mssg: "Homepage" });
 });
