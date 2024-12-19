@@ -20,8 +20,20 @@ app.get("/", (req, res) => {
   res.json({ mssg: "Homepage" });
 });
 
-app.get("/profile", (req, res) => {
+// Register page
+app.post("/api/register", async (req, res) => {});
+
+// Login page
+app.post("/api/login", async (req, res) => {});
+
+// Profile page
+app.get("/api/profile/:username", async (req, res) => {
   res.send("profile page");
+  console.log("display profile");
+});
+
+app.put("/api/profile/:username", async (req, res) => {
+  console.log("update profile");
 });
 
 // listen for requests
